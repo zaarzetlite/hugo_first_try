@@ -1,0 +1,13 @@
+{{define "main"}}
+<h1>Single from single.html</h1>
+    <p>{{ .Title }} from single.html</p>
+    <p>{{ .Content }} from single.html</p>
+{{
+    $thiscolor := "blue [ from single.html]"
+
+
+}}
+
+<h2 style="color: {{ .Params.color}};">{{$thiscolor}}</h2>
+
+{{end}}

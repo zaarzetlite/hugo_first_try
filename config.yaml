@@ -1,0 +1,29 @@
+baseURL: "https://zaarzetlite.github.io/hugo_first_try"
+
+#baseURL: "http://192.168.135.81"
+languageCode: en-us
+title: "Zaarzet Lite"
+
+menu:
+  main:
+    - name: Home
+      pageRef: /
+      weight: 10
+    - name: Products
+      pageRef: /products
+      weight: 20
+    - name: Services
+      pageRef: /services
+      weight: 30
+    - name: Drafts
+      pageRef: /drafts/
+      weight: 40
+
+params:
+  ShowShareButtons: true
+  ShowComments: true
+  ShowMeta: true
+  ShowActions: true
+  ShowTOC: false
+  ShowRelated: true
+  ShowReadingTime: true
